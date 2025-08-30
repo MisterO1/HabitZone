@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Calendar, Users, Target, Trophy, ArrowRight, CheckCircle, Star } from "lucide-react"
+import Link from "next/link"
 
 export default function HomePage() {
   return (
@@ -27,10 +28,14 @@ export default function HomePage() {
             </a>
           </nav>
           <div className="flex items-center space-x-3">
-            <Button variant="outline" size="sm">
-              Se connecter
-            </Button>
-            <Button size="sm">Commencer</Button>
+            <Link href="/login">
+              <Button variant="outline" size="sm">
+                Se connecter
+              </Button>
+            </Link>
+            <Link href="/register">
+              <Button size="sm">Commencer</Button>
+            </Link>
           </div>
         </div>
       </header>
@@ -49,13 +54,15 @@ export default function HomePage() {
             visibles sur un calendrier partagé.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button size="lg" className="text-lg px-8 py-6">
-              Créer mon premier groupe
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button variant="outline" size="lg">
+            <Link href="/register">
+              <Button size="lg" className="text-lg px-8 py-6">
+                Créer mon premier groupe
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+            {/* <Button variant="outline" size="lg">
               Voir la démo
-            </Button>
+            </Button> */}
           </div>
 
           {/* Hero Image Placeholder */}
@@ -282,13 +289,17 @@ export default function HomePage() {
             Rejoignez des milliers de personnes qui ont déjà changé leur vie grâce à HabitZone
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Button variant="outline" size="lg">
-              Commencer gratuitement
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button size="lg">
-              Planifier une démo
-            </Button>
+            <Link href="/register">
+              <Button size="lg">
+                Commencer gratuitement
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+            {/* <Link href="/demo">
+              <Button size="lg">
+                Planifier une démo
+              </Button>
+            </Link> */}
           </div>
           <div className="flex items-center justify-center space-x-6 text-sm text-muted-foreground">
             <div className="flex items-center">
