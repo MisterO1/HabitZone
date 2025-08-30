@@ -1,13 +1,16 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* @config "../../tailwind.config.js"; */
+
 /* @custom-variant dark (&:is(.dark *)); */
 
 :root {
-  --primary: #ea580c;
+  --primary: #ea0cb3; /*#ea580c*/
+  --color-primary: #ea0cb3;
   --secondary: #f97316;
 
-  --background: #ffffff;
+  --background: #16169c;
   --foreground: #4b5563;
   --card: #fffbeb;
   --card-foreground: #4b5563;

@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
 import { Playfair_Display } from "next/font/google"
-import "./globals.css"
+import "./output.css"
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
