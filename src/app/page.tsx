@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-primary">
+    <div className="min-h-screen bg-background">
       {/* Header */}
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
@@ -72,7 +72,7 @@ export default function HomePage() {
               alt="Groupe d'amis utilisant HabitZone ensemble"
               className="rounded-2xl shadow-2xl mx-auto"
             />
-            <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold animate-bounce">
+            <div className="absolute -top-4 -right-4 bg-primary/90 text-primary-foreground px-4 py-2 rounded-full text-sm font-semibold animate-bounce">
               +127% de réussite en groupe !
             </div>
           </div>

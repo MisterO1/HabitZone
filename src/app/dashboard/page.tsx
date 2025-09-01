@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -419,9 +420,11 @@ export default function DashboardPage() {
                             <Flame className="w-4 h-4 text-orange-500" />
                             <span>{group.streak} jours de série</span>
                           </div>
-                          <Button size="sm" variant="outline">
-                            Voir détails
-                          </Button>
+                          <Link href={`/${group.id}/calendar`}>
+                            <Button size="sm" variant="outline">
+                              Voir détails
+                            </Button>
+                          </Link>
                         </div>
                       </CardContent>
                     </Card>

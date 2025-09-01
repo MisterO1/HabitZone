@@ -201,7 +201,7 @@ export default function GroupCalendarPage() {
     for (let day = 1; day <= daysInMonth; day++) {
       days.push(day)
     }
-
+    console.log("days:", days)
     return days
   }
 

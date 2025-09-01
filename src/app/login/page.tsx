@@ -50,7 +50,7 @@ export default function LoginPage() {
         >
           Se connecter
         </Button>
-        {message && <p className="text-sm text-red-600">{message}</p>}
+        {message && <p className={`text-sm ${message.includes("réussie") ? "text-green-600" : "text-red-600"}`}>{message}</p>}
       </form>
     </div>
   );
