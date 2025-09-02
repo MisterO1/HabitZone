@@ -68,7 +68,7 @@ export default function HomePage() {
           {/* Hero Image Placeholder */}
           <div className="relative">
             <img
-              src="/groupe-d-amis-motiv-s-regardant-un-calendrier-part.png"
+              src="./groupe-d-amis-motiv-s-regardant-un-calendrier-part.png"
               alt="Groupe d'amis utilisant HabitZone ensemble"
               className="rounded-2xl shadow-2xl mx-auto"
             />
@@ -152,7 +152,7 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="flex-1">
-                <img src="/interface-de-cr-ation-de-groupe-avec-avatars-d-ami.png" alt="Création de groupe" className="rounded-lg shadow-lg" />
+                <img src="./interface-de-cr-ation-de-groupe-avec-avatars-d-ami.png" alt="Création de groupe" className="rounded-lg shadow-lg" />
               </div>
             </div>
 
@@ -170,7 +170,7 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="flex-1">
-                <img src="/calendrier-color--avec-diff-rents-d-fis-d-habitude.png" alt="Définition des défis" className="rounded-lg shadow-lg" />
+                <img src="./calendrier-color--avec-diff-rents-d-fis-d-habitude.png" alt="Définition des défis" className="rounded-lg shadow-lg" />
               </div>
             </div>
 
@@ -188,7 +188,7 @@ export default function HomePage() {
                 </p>
               </div>
               <div className="flex-1">
-                <img src="/groupe-de-personnes-c-l-brant-leurs-succ-s-avec-de.png" alt="Progression collective" className="rounded-lg shadow-lg" />
+                <img src="./groupe-de-personnes-c-l-brant-leurs-succ-s-avec-de.png" alt="Progression collective" className="rounded-lg shadow-lg" />
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@ export default function HomePage() {
             <Card>
               <CardHeader>
                 <div className="flex items-center mb-4">
-                  <img src="/portrait-femme-souriante-professionnelle.png" alt="Marie" className="w-12 h-12 rounded-full mr-4" />
+                  <img src="./portrait-femme-souriante-professionnelle.png" alt="Marie" className="w-12 h-12 rounded-full mr-4" />
                   <div>
                     <h4 className="font-semibold">Marie L.</h4>
                     <p className="text-sm text-muted-foreground">Équipe marketing</p>
@@ -234,7 +234,7 @@ export default function HomePage() {
             <Card>
               <CardHeader>
                 <div className="flex items-center mb-4">
-                  <img src="/portrait-homme-souriant-d-contract-.png" alt="Thomas" className="w-12 h-12 rounded-full mr-4" />
+                  <img src="./portrait-homme-souriant-d-contract-.png" alt="Thomas" className="w-12 h-12 rounded-full mr-4" />
                   <div>
                     <h4 className="font-semibold">Thomas R.</h4>
                     <p className="text-sm text-muted-foreground">Étudiant</p>
@@ -256,7 +256,7 @@ export default function HomePage() {
             <Card>
               <CardHeader>
                 <div className="flex items-center mb-4">
-                  <img src="/portrait-femme-souriante--nergique.png" alt="Sophie" className="w-12 h-12 rounded-full mr-4" />
+                  <img src="./portrait-femme-souriante--nergique.png" alt="Sophie" className="w-12 h-12 rounded-full mr-4" />
                   <div>
                     <h4 className="font-semibold">Sophie M.</h4>
                     <p className="text-sm text-muted-foreground">Maman de 2 enfants</p>
