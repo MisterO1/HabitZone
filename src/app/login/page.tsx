@@ -19,8 +19,8 @@ export default function LoginPage() {
       setMessage("Connexion réussie !");
       window.location.href = "/dashboard"; // redirection simpliste
 
-    } catch (err: any) {
-      setMessage(err.message);
+    } catch {
+      setMessage("Une erreur est survenue");
     }
   }
 
