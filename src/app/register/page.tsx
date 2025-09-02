@@ -20,8 +20,8 @@ export default function RegisterPage() {
       setMessage("Inscription réussie !");
       window.location.href = "/dashboard";
       
-    } catch (err: any) {
-      setMessage(err.message);
+    } catch (e) {
+      setMessage("Une erreur est survenue");
     }
   }
 
